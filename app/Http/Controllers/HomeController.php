@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\TaskEvent;
 use App\Http\Controllers\Controller;
 use App\Models\Task;
 use App\Models\Admin;
@@ -48,7 +49,6 @@ class HomeController extends Controller
         $task->description = $request->description;
         $task->admin_id = $request->admin_id;
         $task->finished_at = $request->finished_at;
-
         $task->save();
         notify()->success('Basarili', 'Task basariyla olusturuldu.');
         return redirect()->route('tasks');
@@ -66,15 +66,14 @@ class HomeController extends Controller
         $task->description = $request->description;
         $task->finished_at = $request->finished_at;
         $task->save();
-
         notify()->success('Basarili', 'Madde basariyla guncellendi.');
         return redirect()->route('tasks');
     }
 
     public function delete_task($id)
     {
-        Task::find($id)->delete();
-
+        $task = Task::find($id);
+        $task->delete();
         notify()->success('Task basariyla silindi.');
         return redirect()->back();
     }
@@ -84,6 +83,7 @@ class HomeController extends Controller
         $task = Task::findOrFail($request->id);
         $task->is_ok = $request->is_ok == 'true' ? 1 : 0;
         $task->save();
+        notify()->success('Task başarıyla bitirildi.');
+        return redirect()->back();
     }
-
 }

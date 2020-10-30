@@ -17,7 +17,6 @@ class Tasks extends Migration
             $table->date('finished_at');
             $table->smallInteger('is_ok')->default(0);
             $table->integer('status')->default(1);
-            $table->softDeletes();
             $table->foreign('admin_id')->references('id')->on('admins');
             $table->timestamps();
         });

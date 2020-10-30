@@ -6,8 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f092e1-f508-4612-a2bd-52722fdbbb78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_28_103151_tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_28_103151_tasks.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,22 +160,23 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\database\migrations" />
+      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\resources\views" />
+      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\app\Http\Middleware" />
+      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\app\Http\Controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\resources\views" />
       <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\app\Http\Controllers" />
       <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\resources\views\front" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\resources\views" />
-      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\app\Http\Middleware" />
-      <recent name="C:\Users\samet.sahin\Desktop\SAMET\draft-projects\laravel\todolist\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -194,7 +199,9 @@
       <workItem from="1603963197796" duration="388000" />
       <workItem from="1603963742663" duration="1149000" />
       <workItem from="1603964912183" duration="229000" />
-      <workItem from="1603965152560" duration="1014000" />
+      <workItem from="1603965152560" duration="1299000" />
+      <workItem from="1603979153880" duration="603000" />
+      <workItem from="1604033572592" duration="10782000" />
     </task>
     <servers />
   </component>
@@ -257,10 +264,11 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="101" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.693/0.0.2560.1040@0.0.2560.1040" timestamp="1603883702001" />
-    <state x="377" y="265" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603888193055">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="-2258" y="44" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604046730470">
+      <screen x="-2560" y="-239" width="2048" height="1112" />
     </state>
     <state x="377" y="265" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1280.693/0.0.2560.1040@0.0.2560.1040" timestamp="1603888193055" />
+    <state x="-2258" y="44" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680/1920.-241.2048.1112/-2560.-239.2048.1112@-2560.-239.2048.1112" timestamp="1604046730470" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603966382866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
